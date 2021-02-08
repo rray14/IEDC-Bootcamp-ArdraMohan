@@ -1,0 +1,130 @@
+*{
+    margin:0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    background: linear-gradient(to right,#E0E0E0 50%, 	#C0C0C0 50%);
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container{
+     margin:auto ;
+    width:80%;
+   
+}
+.item:first-child {
+    border-top: 1px solid #a3a1a1;
+}
+.item {
+    padding: 13px;
+    border-bottom: 1px solid #a3a1a1;
+}
+.item__delete--btn, .item__delete--btn2 {
+    color:red;
+    font-size: 24px;
+    border:none;
+    background:none;
+    cursor: pointer;
+    display: inline-block;
+    vertical-align:text-top;
+    line-height: 1;
+    
+  
+}
+.item__description, .item__value, .item__delete{
+    
+    display:inline;
+}
+.item__description{
+    float:left;
+}
+.item__value{
+    float:right;
+    text-align: right;
+    transition: transform 0.3s;
+    
+} 
+
+ .item__delete{
+    
+    float:right;
+}  
+
+.income{
+    padding:10px;
+    float: left;
+    width:50%;
+    /* border:1px grey solid; */
+    box-sizing: border-box;
+    text-align: center;
+    
+    
+}
+.expenses{
+    padding:10px;
+    float: right;
+    width:50%;
+    /* border:1px grey solid; */
+    box-sizing: border-box;
+    text-align: center;
+    
+}
+.totInc_value, .totExp_value{
+    font-size: large;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.65);
+    width: 155px;
+    margin-left: 36.6%;
+    
+}
+
+
+.add__btn,.add__btn2{
+    font-size: 35px;
+    background: none;
+    border: none;
+    color: #008a85;
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1.1;
+    margin-left: 10px;
+}
+
+
+
+
+#hero{
+    margin-top: 0;
+    color:white;
+    text-align: center;
+    padding: 140px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url(assets/imgs/coins.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+ 
+}
+#hero h1{
+    
+    background-color: rgba(0, 0, 0, 0.7);
+    margin-left: 35%;
+    width: 355px;
+    
+}
+#hero .budget_value{
+    font-size: x-large;
+    background-color: rgba(0, 0, 0, 0.7) ;
+    margin-left: 35%;
+    width: 355px;
+    
+    
+}
+.block h2{
+    text-align: center;
+}

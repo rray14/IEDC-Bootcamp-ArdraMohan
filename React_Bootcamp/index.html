@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang='html'>
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:100,300,400,600" rel="stylesheet" type="text/css">
+        <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="assets/icofont/icofont/icofont.min.css">
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <title>Budget Calculator</title>
+        
+    </head>
+    <body>
+        <header>
+
+        </header>
+        
+        <div id="hero">
+            <h1 class='heroh1'>Total Balance:</h1>
+
+            <div class="budget_value">INR 24000</div>
+
+        </div>
+        
+        <br>
+        <div class="container">
+            <div class="income">
+                <h2>Earnings</h2>
+                <div class="totInc_value">+ 24000</div><br>
+                <div class='add'>
+                    <input type="text" class="add__type" value="+" style="width:10px;">
+                    <input type="text" class="add__description" placeholder="Add description">
+                    <input type="number" class="add__value" name="amt" placeholder="Add amount">
+                    <button class="add__btn"><i class="ion-ios-checkmark-outline"></i></button>
+                </div>
+                <div class="inc-list">
+                    <!--<div class="item clearfix" id="inc-0">
+                        <div class="item__description">Salary</div>
+                        <div class="right clearfix">
+                            <div class="item__value">+ 2,100.00</div>
+                            <div class="item__delete">
+                                <button class="item__delete--btn">
+                                    <i class="ion-ios-close-outline"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+
+            <div class="expenses">
+                <h2>Expenses</h2>
+                <div class="totExp_value">24000</div><br>
+                <div class="add">
+                    <input type="text" class="exp__type" value="-" style="width:10px;">
+                    <input type="text" class="exp__description" placeholder="Add description">
+                    <input type="number" class="exp__value" name="amt" placeholder="Add amount">
+                    <button class="add__btn2"><i class="icofont-check-circled"></i></button>
+                </div>
+                <div class="exp-list">
+                    <!-- <div class="item clearfix" id="exp-0">
+                        <div class="item__description">Apartment rent</div>
+                        <div class="right clearfix">
+                            <div class="item__value">- 900.00</div>
+                            
+                            <div class="item__delete">
+                                <button class="item__delete--btn2"><i class="icofont-close-circled"></i></button>
+                                
+                            </div>
+                        </div>
+                    </div> -->
+                </div>
+                
+            </div>
+        </div>
+        
+        <script language="javascript" type="text/javascript" src="scriptdup.js"></script>
+    </body>
+</html>
